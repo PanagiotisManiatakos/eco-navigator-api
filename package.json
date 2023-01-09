@@ -1,0 +1,20 @@
+{
+  "name": "mailserver",
+  "version": "1.0.0",
+  "description": "website contact form mail server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=producton & nodemon app.js",
+    "client": "npm start --prefix client",
+    "pretty code": "prettier --write \"**/*.{js,jsx,json,css,scss,ts,tsx,md}\""
+  },
+  "author": "P MANIATAKOS",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0"
+  }
+}
